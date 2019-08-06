@@ -1,9 +1,7 @@
-import { NumbersCollection } from './NumbersCollection';
-
 export class Sorter {
-  collection: NumbersCollection;
+  collection: Sortable;
 
-  constructor(collection: NumbersCollection) {
+  constructor(collection: Sortable) {
     this.collection = collection;
   }
 
